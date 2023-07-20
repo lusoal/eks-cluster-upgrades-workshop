@@ -2,7 +2,7 @@
 
 ![Tests](https://github.com/aws-samples/eks-cluster-upgrades-workshop/actions/workflows/production.yaml/badge.svg?branch=main)
 
-:bangbang: THIS WORKSHOP IS PERFORMING UPGRADES FROM VERSION `1.24` :bangbang:
+:bangbang: THIS WORKSHOP IS PERFORMING UPGRADES FROM VERSION `1.25` :bangbang:
 
 This workshop covers best practices that are applicable for both older and newer versions of Kubernetes. We are committed to keeping our content up-to-date with the latest Amazon EKS releases, Let's get started!
 
@@ -40,7 +40,7 @@ To spin -up your learn environment, go to [`website`](./website/README.md#local-
 Once forked, execute the `install.sh` (located in the root of this repo) script and fill te asked questions:
 
 ```bash
-bash ./install.sh 
+bash ./install.sh
 ```
 
 > When asked for `tf_state_path` leave it empty to provision all the components
